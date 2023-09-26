@@ -50,7 +50,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 						document.getElementById("main").querySelector(
 								'header')
 							.insertAdjacentHTML("afterbegin",
-								"<div id='backleftid' style='width: 29px;height:30px;display: flex;align-items: center;'><img style='width:21px;' src='https://phantaverse.oss-cn-shanghai.aliyuncs.com/box/img/other/paV0zMW1okPZizUV1la2Xuw6q7RV6JaGolWQyWEM.png' /></div>"
+								"<div id='backleftid' style='width: 29px;height:30px;display: flex;align-items: center;'><img style='width:21px;' src='http://s076t48zd.bkt.gdipper.com/whatsBack.png' /></div>"
 							)
 						document.getElementById("backleftid").addEventListener('click',
 							(e) => {
