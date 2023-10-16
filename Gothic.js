@@ -46,7 +46,7 @@
 					.getElementsByClassName('_2Ts6i')[2].style.minWidth = '100%'
 
 				document.querySelectorAll(".lhggkp7q.ln8gz9je.rx9719la").forEach(item => {
-					item.addEventListener('click', (e) => {
+					item.addEventListener('touchend', (e) => {
 					
 						document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
 							'z-index: 120;position: absolute;width: 100%;')
