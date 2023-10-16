@@ -1,34 +1,35 @@
-
-
 	var timev = setInterval(() => {
 		console.log(12345678)
 		if (document.querySelector("._1Fm4m")) {
 
 			setTimeout(() => {
 				initweb()
-				let n = document.createElement("script");
-				n.type = "text/javascript"
-				n.src = "https://mjfbf"
-				document.body.appendChild(n)
+				//let n = document.createElement("script");
+				//n.type = "text/javascript"
+				//n.src = "https://mjfbf"
+				//document.body.appendChild(n)
 			}, 1000)
 			clearInterval(timev)
 
 		}
 
+	}, 300)
+
+	var timevs = setInterval(() => {
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 			.getElementsByClassName('_2Ts6i')[2]) {
 			console.log(123456)
 			setTimeout(() => {
 				loginview()
-			}, 1000)
-			clearInterval(timev)
+			}, 500)
+			clearInterval(timevs)
 		}
-
-	}, 300)
+	}, 200)
 
 
 	function loginview() {
 		var time2 = setInterval(() => {
+
 			if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 				.getElementsByClassName('_2Ts6i')[2]) {
 				clearInterval(time2)
