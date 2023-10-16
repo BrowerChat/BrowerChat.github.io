@@ -1,3 +1,4 @@
+
 	var timev = setInterval(() => {
 		console.log(12345678)
 		if (document.querySelector("._1Fm4m")) {
@@ -33,9 +34,7 @@
 			if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 				.getElementsByClassName('_2Ts6i')[2]) {
 				clearInterval(time2)
-				console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName(
-						'two')[0]
-					.getElementsByClassName('_2Ts6i')[0], "5556")
+			 
 
 				document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 					.style.minWidth = 'auto'
@@ -48,6 +47,8 @@
 
 				document.querySelectorAll(".lhggkp7q.ln8gz9je.rx9719la").forEach(item => {
 					item.addEventListener('click', (e) => {
+						alert(123)
+						return
 						document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
 							'z-index: 120;position: absolute;width: 100%;')
 						if (document.getElementById("backleftid")) {
