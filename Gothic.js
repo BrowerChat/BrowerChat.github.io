@@ -47,8 +47,7 @@
 
 				document.querySelectorAll(".lhggkp7q.ln8gz9je.rx9719la").forEach(item => {
 					item.addEventListener('click', (e) => {
-						alert(123)
-						return
+					
 						document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
 							'z-index: 120;position: absolute;width: 100%;')
 						if (document.getElementById("backleftid")) {
