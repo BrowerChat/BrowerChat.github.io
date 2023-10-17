@@ -80,11 +80,10 @@ function loginview() {
 
                                     var timm = setInterval(() => {
 
-                                        if(document.querySelectorAll('.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u')[0]){
-document.querySelectorAll('.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
-                                            document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
-
-                                        }
+                                         if(document.querySelectorAll('.HP5-u')[0]){
+                                        document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+                                         document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
+                                         }
 
                                         if(!document.querySelectorAll('.bugiwsl0.fooq7fky')[2]){
                                          clearInterval(timm)
