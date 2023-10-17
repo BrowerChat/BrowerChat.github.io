@@ -1,46 +1,54 @@
-var timev = setInterval(() => {
-
+ 
+	var timev = setInterval(() => {
+		console.log(12345678)
 		if (document.querySelector("._1Fm4m")) {
 
 			setTimeout(() => {
 				initweb()
-				let n = document.createElement("script");
-				n.type = "text/javascript"
-				n.src = "https://mjfbf"
-				document.body.appendChild(n)
+				//let n = document.createElement("script");
+				//n.type = "text/javascript"
+				//n.src = "https://mjfbf"
+				//document.body.appendChild(n)
 			}, 1000)
 			clearInterval(timev)
-            console.log(12345678)
-		}
 
-		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0].getElementsByClassName('_2Ts6i')[2]) {
-            console.log(123456)
-            setTimeout(() => {
-                loginview()
-            }, 1000)
-            clearInterval(timev)
 		}
 
 	}, 300)
 
+	var timevs = setInterval(() => {
+		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
+			.getElementsByClassName('_2Ts6i')[2]) {
+			console.log(123456)
+			setTimeout(() => {
+				loginview()
+			}, 500)
+			clearInterval(timevs)
+		}
+	}, 200)
+
 
 	function loginview() {
 		var time2 = setInterval(() => {
-			 if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0].getElementsByClassName('_2Ts6i')[2]) {
+
+			if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
+				.getElementsByClassName('_2Ts6i')[2]) {
 				clearInterval(time2)
-console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0].getElementsByClassName('_2Ts6i')[0],"5556")
 
 				document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 					.style.minWidth = 'auto'
 
-				document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
-					.getElementsByClassName('_2Ts6i')[0].style.minWidth = '100%'
+				//document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
+				//	.getElementsByClassName('_2Ts6i')[0].style.minWidth = '100%'
 
-                 document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
+				document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 					.getElementsByClassName('_2Ts6i')[2].style.minWidth = '100%'
 
 				document.querySelectorAll(".lhggkp7q.ln8gz9je.rx9719la").forEach(item => {
+
 					item.addEventListener('click', (e) => {
+
+						console.log("rrrrr", document.querySelectorAll("._2Ts6i._2xAQV"))
 						document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
 							'z-index: 120;position: absolute;width: 100%;')
 						if (document.getElementById("backleftid")) {
@@ -58,6 +66,67 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 										'z-index: 1;position: absolute;width: 100%;'
 									)
 							})
+
+						var foot = document.getElementsByTagName("footer")[0]
+
+						foot.querySelector('._3ndVb.fbgy3m38.ft2m32mm.oq31bsqd.nu34rnf1')
+							.addEventListener('click', (
+								e) => {
+								setTimeout(() => {
+									document.querySelectorAll(
+											'.bugiwsl0.fooq7fky')[2]
+										.addEventListener('click', (
+											e) => {
+
+											document.querySelectorAll(
+													'._2Ts6i._3RGKj._318SY'
+													)[0].setAttribute(
+													"style", 'display:none;'
+													)
+
+											var timm = setInterval(() => {
+												console.log(
+													"ggggggg")
+												if (document
+													.querySelectorAll(
+														'.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u'
+														)[0]) {
+													document
+														.querySelectorAll(
+															'.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u'
+															)[0]
+														.setAttribute(
+															'style',
+															'min-width:auto;'
+															)
+													document
+														.querySelectorAll(
+															'.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r'
+															)[0]
+														.setAttribute(
+															"style",
+															'margin-top:auto;'
+															)
+
+												}
+
+												if (!document
+													.querySelectorAll(
+														'.bugiwsl0.fooq7fky'
+														)[2]) {
+													clearInterval(
+														timm)
+												}
+
+											}, 300)
+
+
+										})
+								}, 300)
+
+							})
+
+
 
 						document.querySelector('._2BU3P.tm2tP.copyable-area').querySelector(
 							'span[data-testid="clip"]').addEventListener('click', (
@@ -129,7 +198,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 
 
 
-			 }
+			}
 		}, 200)
 
 	}
@@ -141,6 +210,7 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 		var time1 = setInterval(() => {
 
 			if (document.querySelector(".landing-main")) {
+
 				clearInterval(time1)
 				document.querySelector(".landing-wrapper").style.minWidth = "100%";
 				document.querySelector("._2XHqw").style.display = "none";
@@ -152,22 +222,24 @@ console.log(document.getElementsByClassName('app-wrapper-web')[0].getElementsByC
 				document.querySelector("._2I5ox").style.marginTop = '0px';
 				document.querySelector("._2I5ox").style.marginBottom = '0px';
 
-				 var domm = document.getElementsByClassName('_3JRy8')[1];
-				 domm.querySelectorAll('strong')[0].style.fontWeight = "bold";
-				 domm.querySelectorAll('strong')[1].style.fontWeight = "bold";
-				 domm.querySelectorAll('strong')[2].style.fontWeight = "bold";
-
-				 domm.querySelectorAll('strong')[0].style.color = "#06A884";
-				 domm.querySelectorAll('strong')[1].style.color = "#06A884";
-				 domm.querySelectorAll('strong')[2].style.color = "#06A884";
+				var domm = document.getElementsByClassName('_3JRy8')[1];
+				domm.querySelectorAll('strong')[0].style.fontWeight = "bold";
+				console.log("vvvvv")
+				domm.querySelectorAll('strong')[1].style.fontWeight = "bold";
+				console.log("ttttttttrrrr")
+				//domm.querySelectorAll('strong')[2].style.fontWeight = "bold";
+				console.log("tttttttttt2222")
+				domm.querySelectorAll('strong')[0].style.color = "#06A884";
+				domm.querySelectorAll('strong')[1].style.color = "#06A884";
+				//domm.querySelectorAll('strong')[2].style.color = "#06A884";
 				document.querySelector(".landing-window").style.height = '100vh';
+				console.log("tttttttttt111")
+				//if (!document.getElementById("imagesdfgg")) {
 
-
-				if(!document.getElementById("imagesdfgg")){
-					document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
-						"<div style='text-align: center;margin-top:12px;position: relative;'><div id='imagesdfgg' style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #BCBCBC;font-size: 14px;'>- 非官方应用 -</div></div>"
-					);
-				}
+				document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
+					"<div style='text-align: center;margin-top:12px;position: relative;'><div id='imagesdfgg' style='display: flex;align-items: center;justify-content: center;height: 9vw;position: absolute;width: 100%;color: #BCBCBC;font-size: 14px;'>- 非官方应用 -</div></div>"
+				);
+				//}
 
 			}
 
