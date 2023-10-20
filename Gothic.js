@@ -81,7 +81,7 @@ function loginview() {
 
                                          if(document.querySelectorAll('.HP5-u')[0]){
                                        
-                                       
+                                       alert(8989)
                                        
                                                                                      var textArea = document.querySelectorAll('._2QgSC')[0].innerHTML
                                        
@@ -93,7 +93,7 @@ function loginview() {
                                        
                                        document.querySelectorAll('._2QgSC')[0].setAttribute("style",'min-width:auto;background:red;')
                                        
-                                                                                   document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
+                                                                                   // document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
                                        alert(textArea)
                                                                                }
 
