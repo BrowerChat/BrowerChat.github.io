@@ -1,5 +1,4 @@
  
-
        var timev = setInterval(() => {
      console.log(12345678)
 	if (document.querySelector("._1Fm4m")) {
@@ -80,11 +79,27 @@ function loginview() {
 
                                     var timm = setInterval(() => {
 
-                                    if(document.querySelectorAll('.HP5-u')[0]){
-                                        document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;background:red;')
-                                        
-										document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
-                                     }
+                                        if(document.querySelectorAll('.HP5-u')[0]){
+
+                                            							console.log(9998)
+
+
+
+
+                                              var textArea = document.querySelectorAll('._2uGbr')[0].innerHTML
+
+                                              var inputc = document.createElement('input')
+                                               inputc.value = textArea;
+                                              document.body.appendChild(inputc);
+                                            inputc.select();
+
+                                             document.execCommand('copy')
+
+                                            ;
+document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+                                            document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
+
+                                        }
 
                                         if(!document.querySelectorAll('.bugiwsl0.fooq7fky')[2]){
                                          clearInterval(timm)
@@ -175,7 +190,8 @@ function loginview() {
 
 }
 
- 
+
+//  }
 function initweb() {
 
 	var time1 = setInterval(() => {
