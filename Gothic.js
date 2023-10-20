@@ -72,9 +72,7 @@ function loginview() {
                     foot.querySelector('._3ndVb.fbgy3m38.ft2m32mm.oq31bsqd.nu34rnf1').addEventListener('click', (
 							e) => {
                        setTimeout(() => {
-								document.querySelectorAll('.bugiwsl0.fooq7fky')[1].addEventListener('click', (
-							e) => {
-
+								document.querySelectorAll('.bugiwsl0.fooq7fky')[3].addEventListener('click', (e) => {
 		 
                                     document.querySelectorAll('._2Ts6i._3RGKj._318SY')[0].setAttribute("style",'flex:0;')
 									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1]){
@@ -114,8 +112,51 @@ function loginview() {
 
                                     },300)
 
-
                                 })
+								
+								document.querySelectorAll('.bugiwsl0.fooq7fky')[2].addEventListener('click', (e) => {
+										 
+								    document.querySelectorAll('._2Ts6i._3RGKj._318SY')[0].setAttribute("style",'flex:0;')
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1].setAttribute("style",'flex:0;')
+									}
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[2]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[2].setAttribute("style",'flex:0;')
+									}
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[3]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[3].setAttribute("style",'flex:0;')
+									}
+								
+								    var timm = setInterval(() => {
+								
+								       if(document.querySelectorAll('.HP5-u')[0]){
+								      
+								      
+								      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+								      
+									  if( document.querySelectorAll('.HP5-u')[1]){
+									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;background:red;')
+									  }
+									  if( document.querySelectorAll('.HP5-u')[2]){
+									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;background:red;')
+									  }
+								      if( document.querySelectorAll('.HP5-u')[3]){
+								      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;background:red;')
+								      }
+								      
+								        console.log("ppp22222")
+								       // document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
+								 }
+								
+								        if(!document.querySelectorAll('.bugiwsl0.fooq7fky')[2]){
+								         clearInterval(timm)
+								        }
+								
+								    },300)
+								
+								})
+								
+								
 								}, 300)
 
                     })
