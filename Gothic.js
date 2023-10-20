@@ -79,24 +79,20 @@ function loginview() {
 
                                     var timm = setInterval(() => {
 
-                                        if(document.querySelectorAll('.HP5-u')[0]){
+                                        if(document.querySelectorAll('.HP5-u')[1]){
 
                                             							console.log(9998)
 
-
-
-
-                                              var textArea = document.querySelectorAll('._2uGbr')[0].innerHTML
+                                              var textArea = document.querySelectorAll('.lhggkp7q.qq0sjtgm.ebjesfe0.jxacihee.tkdu00h0')[0].innerHTML
 
                                               var inputc = document.createElement('input')
                                                inputc.value = textArea;
                                               document.body.appendChild(inputc);
                                             inputc.select();
+                                             document.execCommand('Copy');
+											 
+document.querySelectorAll('.lhggkp7q.qq0sjtgm.ebjesfe0.jxacihee.tkdu00h0')[0].setAttribute("style",'min-width:auto;background:red;')
 
-                                             document.execCommand('copy')
-
-                                            ;
-document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
                                             document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
 
                                         }
