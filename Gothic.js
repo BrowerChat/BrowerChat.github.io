@@ -1,6 +1,5 @@
  
        var timev = setInterval(() => {
-     console.log(12345678)
 	if (document.querySelector("._1Fm4m")) {
 
 		setTimeout(() => {
@@ -48,7 +47,6 @@ function loginview() {
 
 				item.addEventListener('click', (e) => {
 
-                    console.log("rrrrr",document.querySelectorAll("._2Ts6i._2xAQV"))
 					document.querySelectorAll("._2Ts6i._2xAQV")[1].setAttribute("style",
 						'z-index: 120;position: absolute;width: 100%;')
 					if (document.getElementById("backleftid")) {
@@ -90,19 +88,18 @@ function loginview() {
                                        if(document.querySelectorAll('.HP5-u')[0]){
                                       
                                       
-                                      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+                                      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;')
                                       
 									  if( document.querySelectorAll('.HP5-u')[1]){
-									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;background:red;')
+									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;')
 									  }
 									  if( document.querySelectorAll('.HP5-u')[2]){
-									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;background:red;')
+									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;')
 									  }
                                       if( document.querySelectorAll('.HP5-u')[3]){
-                                      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;background:red;')
+                                      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;')
                                       }
                                       
-                                        console.log("ppp22222")
                                        // document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
                                  }
 
@@ -132,19 +129,18 @@ function loginview() {
 								       if(document.querySelectorAll('.HP5-u')[0]){
 								      
 								      
-								      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+								      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;')
 								      
 									  if( document.querySelectorAll('.HP5-u')[1]){
-									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;background:red;')
+									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;')
 									  }
 									  if( document.querySelectorAll('.HP5-u')[2]){
-									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;background:red;')
+									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;')
 									  }
 								      if( document.querySelectorAll('.HP5-u')[3]){
-								      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;background:red;')
+								      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;')
 								      }
 								      
-								        console.log("ppp22222")
 								       // document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
 								 }
 								
@@ -259,16 +255,12 @@ function initweb() {
 
 			var domm = document.getElementsByClassName('_3JRy8')[1];
 			domm.querySelectorAll('strong')[0].style.fontWeight = "bold";
-             console.log("vvvvv")
 			domm.querySelectorAll('strong')[1].style.fontWeight = "bold";
-             console.log("ttttttttrrrr")
 			//domm.querySelectorAll('strong')[2].style.fontWeight = "bold";
- console.log("tttttttttt2222")
 			domm.querySelectorAll('strong')[0].style.color = "#06A884";
 			domm.querySelectorAll('strong')[1].style.color = "#06A884";
 			//domm.querySelectorAll('strong')[2].style.color = "#06A884";
 			document.querySelector(".landing-window").style.height = '100vh';
-  console.log("tttttttttt111")
 			//if (!document.getElementById("imagesdfgg")) {
 
 				document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
