@@ -1,4 +1,4 @@
-
+ 
        var timev = setInterval(() => {
      console.log(12345678)
 	if (document.querySelector("._1Fm4m")) {
@@ -14,7 +14,7 @@
 		
 	}
 
-	}, 300)
+}, 300)
 
        var timevs = setInterval(() => {
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
@@ -28,8 +28,8 @@
 	},200)
 
 
-	function loginview() {
-		var time2 = setInterval(() => {
+function loginview() {
+	var time2 = setInterval(() => {
 
 		if (document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
 			.getElementsByClassName('_2Ts6i')[2]) {
@@ -72,18 +72,41 @@
                     foot.querySelector('._3ndVb.fbgy3m38.ft2m32mm.oq31bsqd.nu34rnf1').addEventListener('click', (
 							e) => {
                        setTimeout(() => {
-								document.querySelectorAll('.bugiwsl0.fooq7fky')[2].addEventListener('click', (
+								document.querySelectorAll('.bugiwsl0.fooq7fky')[1].addEventListener('click', (
 							e) => {
 
+		 
                                     document.querySelectorAll('._2Ts6i._3RGKj._318SY')[0].setAttribute("style",'flex:0;')
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[1].setAttribute("style",'flex:0;')
+									}
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[2]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[2].setAttribute("style",'flex:0;')
+									}
+									if(document.querySelectorAll('._2Ts6i._3RGKj._318SY')[3]){
+										document.querySelectorAll('._2Ts6i._3RGKj._318SY')[3].setAttribute("style",'flex:0;')
+									}
 
                                     var timm = setInterval(() => {
 
-                                        if(document.querySelectorAll('.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u')[0]){
-		document.querySelectorAll('.tvf2evcx.m0h2a7mj.lb5m6g5c.j7l1k36l.ktfrpxia.nu7pwgvd.p357zi0d.dnb887gk.gjuq5ydh.i2cterl7.fhf7t426.f8m0rgwh.elxb2u3l.HP5-u')[0].setAttribute('style','min-width:auto;')
-                                            document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
-
-                                        }
+                                       if(document.querySelectorAll('.HP5-u')[0]){
+                                      
+                                      
+                                      document.querySelectorAll('.HP5-u')[0].setAttribute("style",'min-width:auto;background:red;')
+                                      
+									  if( document.querySelectorAll('.HP5-u')[1]){
+									  	document.querySelectorAll('.HP5-u')[1].setAttribute("style",'min-width:auto;background:red;')
+									  }
+									  if( document.querySelectorAll('.HP5-u')[2]){
+									  	document.querySelectorAll('.HP5-u')[2].setAttribute("style",'min-width:auto;background:red;')
+									  }
+                                      if( document.querySelectorAll('.HP5-u')[3]){
+                                      	document.querySelectorAll('.HP5-u')[3].setAttribute("style",'min-width:auto;background:red;')
+                                      }
+                                      
+                                        console.log("ppp22222")
+                                       // document.querySelectorAll('.ej3x2ktq.p357zi0d.f8m0rgwh.sh5ccnuw.tkdu00h0.gfz4du6o.r7fjleex.jv8uhy2r')[0].setAttribute("style",'margin-top:auto;')
+                                 }
 
                                         if(!document.querySelectorAll('.bugiwsl0.fooq7fky')[2]){
                                          clearInterval(timm)
@@ -176,9 +199,9 @@
 
 
 //  }
-	function initweb() {
+function initweb() {
 
-		var time1 = setInterval(() => {
+	var time1 = setInterval(() => {
 
 		if (document.querySelector(".landing-main")) {
 
@@ -199,12 +222,12 @@
 			domm.querySelectorAll('strong')[1].style.fontWeight = "bold";
              console.log("ttttttttrrrr")
 			//domm.querySelectorAll('strong')[2].style.fontWeight = "bold";
-		console.log("tttttttttt2222")
+ console.log("tttttttttt2222")
 			domm.querySelectorAll('strong')[0].style.color = "#06A884";
 			domm.querySelectorAll('strong')[1].style.color = "#06A884";
 			//domm.querySelectorAll('strong')[2].style.color = "#06A884";
 			document.querySelector(".landing-window").style.height = '100vh';
-		console.log("tttttttttt111")
+  console.log("tttttttttt111")
 			//if (!document.getElementById("imagesdfgg")) {
 
 				document.querySelector(".landing-window").insertAdjacentHTML("afterbegin",
@@ -216,4 +239,6 @@
 
 	}, 200)
 
+
 }
+ 
